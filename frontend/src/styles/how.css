@@ -1,0 +1,21 @@
+.how {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+.how h3 {
+  text-align: center;
+}
+.how .card {
+  flex-direction: column;
+  background-color: var(--blue50);
+}
+.how .card .icon {
+  width: 64px;
+  height: 64px;
+  /* border: 2px solid var(--primary-color); */
+  background-color: var(--primary-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

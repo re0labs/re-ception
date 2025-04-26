@@ -1,0 +1,41 @@
+.result-container {
+  padding: 5rem 2rem;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.result-container h2 {
+  text-align: center;
+}
+
+.json-result {
+  background-color: #282c34;
+  color: #dcdcdc;
+  padding: 15px;
+  border-radius: 5px;
+  font-family: "Courier New", Courier, monospace;
+  overflow-x: auto;
+  white-space: pre-wrap;
+}
+
+.json-result .string {
+  color: #ce9178;
+}
+
+.json-result .number {
+  color: #b5cea8;
+}
+
+.json-result .boolean {
+  color: #569cd6;
+}
+
+.json-result .null {
+  color: #569cd6;
+}
+
+.json-result .key {
+  color: #9cdcfe;
+}

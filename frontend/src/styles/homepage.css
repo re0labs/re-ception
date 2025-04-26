@@ -1,0 +1,18 @@
+.bg {
+  background: url("../assets/smart-robot.png") no-repeat center center/contain;
+  height: 300px;
+  border-radius: 5px;
+  /* max-width: 800px; */
+  animation: bounce 2s infinite;
+}
+
+/* Keyframes for the bounce animation */
+@keyframes bounce {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-40px);
+  }
+}

@@ -1,0 +1,64 @@
+.profile {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+  padding: 5rem 2rem;
+}
+.profile .card {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.profile .card img {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+}
+.profile .card i {
+  font-size: 3rem;
+}
+.profile .names {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.profile .names p {
+  color: var(--white50);
+}
+.profile .w-add {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.card .w-add i {
+  font-size: 1rem;
+  cursor: pointer;
+}
+.copied {
+  color: var(--color-red);
+}
+
+.history {
+  margin-top: 20px;
+}
+
+.history-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 30px;
+  border: 1px solid var(--blue20);
+}
+
+.history-table th,
+.history-table td {
+  padding: 20px;
+  border-bottom: 1px solid var(--blue20);
+}
+
+.history-table th {
+  text-align: left;
+  background-color: var(--blue50);
+}
+
+.history-table tr:hover {
+  background-color: var(--color-teal);
+  cursor: pointer;
+}

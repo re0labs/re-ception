@@ -1,0 +1,84 @@
+.navbar-header {
+  border-bottom: 1px solid var(--blue50);
+  position: sticky;
+  top: 0;
+  background-color: var(--primary-color);
+}
+nav {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: space-between;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  position: relative;
+}
+nav .balance {
+  color: var(--color-teal);
+  border-radius: 5px;
+  padding: 10px 30px;
+  border: 1px solid var(--color-teal);
+}
+.profile-img {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  border: 1px solid var(--blue50);
+  cursor: pointer;
+}
+.profile-img img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+/* Menu */
+.menu {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: var(--blue50);
+  border-radius: 5px;
+  border: 1px solid var(--blue20);
+  overflow: hidden;
+}
+.menu ul {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+}
+.menu li {
+  width: 100%;
+  border-bottom: 1px solid var(--color-teal);
+}
+.menu li:first-child .user-profile {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.menu li:last-child {
+  border-bottom: none;
+  cursor: pointer;
+}
+.menu li:not(:first-child):hover {
+  background-color: var(--primary-color);
+}
+.menu li a,
+.menu li:first-child,
+.menu li:last-child {
+  padding: 20px;
+  display: block;
+  width: 100%;
+}
+.menu .names {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.menu .names p {
+  color: var(--white50);
+}

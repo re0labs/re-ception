@@ -1,0 +1,54 @@
+div.faq {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  padding: 5rem 2rem;
+}
+.faq h3 {
+  text-align: center;
+}
+.questions {
+  border-bottom: 1px solid var(--blue50);
+  border-radius: 5px;
+}
+.faq-item {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  border: 1px solid var(--blue50);
+}
+.faq-item > p {
+  font-size: 1.5rem;
+}
+.faq-item p,
+.faq-item h4 {
+  padding: 1rem;
+}
+details {
+  flex: 1;
+  border-left: 1px solid var(--blue50);
+}
+summary {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  border-right: 1px solid var(--blue50);
+}
+summary h4 {
+  font-weight: 500;
+}
+details summary::details-marker {
+  display: none;
+}
+
+details summary:after {
+  content: "+";
+  font-size: 1.5rem;
+  padding: 1rem;
+}
+
+/* When details is open, change the + to - */
+details[open] summary:after {
+  content: "-";
+}
