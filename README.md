@@ -1,4 +1,4 @@
-![reCEPTION](https://github.com/user-attachments/assets/775b68ac-564e-42fb-b7d5-177943ed8995)
+![image](https://github.com/user-attachments/assets/9f3fae80-41cf-446f-9dad-5c9c867eb773)
 
 # Contents
 - [Overview](https://github.com/Julius-Ky/reCeption/blob/main/README.md#reception-web30-recaptcha)
